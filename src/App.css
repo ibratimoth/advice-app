@@ -4,6 +4,9 @@
     height: 100vh;
     box-sizing: border-box;
 }
+*{
+    -webkit-tap-highlight-color: transparent;
+}
 
 .app {
     height: 100%;
@@ -68,6 +71,7 @@
 .button:hover{
     border: 1.5px solid rgba(5, 35, 87, 0.6);
     background-color: rgba(233, 221, 221, 0.6);
+    border-radius: 50px;
 }
 .button:hover span{
     animation: storm o.7s ease-in-out both;
